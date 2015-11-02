@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     builder.append(str);
                 }
                 sResult = builder.toString();
-                Log.e("sResult","오ㅠㅏㄴ");
+                Log.e("sResult","완료");
             } catch (Exception e) {
                 e.printStackTrace();
                 Log.e(e.toString(),sResult);

@@ -63,7 +63,6 @@ public class Res_menu_adapter extends ArrayAdapter<Res_menu_item> {
         if(res_item!=null){
             holder.food_name.setText(res_item.food_name);
             holder.price.setText(String.valueOf(res_item.price));
-//            Picasso.with(this.context).load(res_item.res_imgurl).fit().centerCrop().into(holder.res_image);
         }
         //setGlobalFont(parent);
 
